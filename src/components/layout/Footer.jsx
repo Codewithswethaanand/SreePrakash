@@ -1,15 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {
+  FaFacebook,
   FaInstagram,
-  FaFacebookF,
   FaYoutube,
-  FaPinterestP,
-  FaLinkedinIn,
-  FaChevronDown,
-  FaChevronUp,
-  FaPaperPlane,
-  FaWhatsapp,
+  FaLinkedin
 } from "react-icons/fa";
 
 const Footer = () => {
