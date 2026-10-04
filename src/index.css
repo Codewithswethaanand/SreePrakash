@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+
+* {
+  font-family: "geograph-regular", sans-serif !important;
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background: #fffaf7;
+  color: #010101;
+  font-family: "geograph-regular", sans-serif !important;
+
+}
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+
+}
+
+
+
+.animate-marquee {
+  animation: marquee 12s linear infinite;
+
+} 
+
+.sidebar {
+  background-color: #ff9673;
+}
