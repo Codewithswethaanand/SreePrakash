@@ -1,15 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {
-  FaInstagram,
   FaFacebookF,
+  FaInstagram,
   FaYoutube,
-  FaPinterestP,
-  FaLinkedinIn,
-  FaChevronDown,
-  FaChevronUp,
-  FaPaperPlane,
-  FaWhatsapp,
+  
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -63,9 +58,7 @@ const Footer = () => {
     { icon: <FaInstagram />, url: "https://instagram.com" },
     { icon: <FaFacebookF />, url: "https://facebook.com" },
     { icon: <FaYoutube />, url: "https://youtube.com" },
-    { icon: <FaPinterestP />, url: "https://pinterest.com" },
-    { icon: <FaLinkedinIn />, url: "https://linkedin.com" },
-  ];
+     ];
 
   const MobileSection = ({ title, id, children }) => (
     <div className="border-b border-stone-950/15 py-4">
